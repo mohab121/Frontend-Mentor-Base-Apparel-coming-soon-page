@@ -1,0 +1,132 @@
+@import url('https://fonts.google.com/specimen/Manrope');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  :root {
+    --blue-grayish: hsl(212, 23%, 69%);
+    --blue-grayish-light: hsl(210, 46%, 95%);
+    --blue-grayish-very-dark: hsl(217, 19%, 35%);
+    --blue-dark: hsl(214, 17%, 51%);
+    --light-brown:rgb(212,163,164);
+  }
+
+  img{max-width: 100%;}
+
+  html {
+    font-size: 62.5%;
+  }
+
+  body {
+    width: 100vh;
+    height:100vh;
+    font-size: 1.6rem;
+    font-family: "Manrope";
+  }
+
+  main{
+    display: flex;
+    width:98vmax;
+  }
+
+  .photo_container{
+    width:fit-content;
+    max-height: 100vh;
+  } 
+
+  .photo_container img{
+    max-height: 100%;
+    min-width: 42vmax;
+    margin-right: -10px;
+  }
+
+  
+
+  .info_container{
+    max-height: 100vh;
+    max-width: 60%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url("../../images/bg-pattern-desktop.svg");
+  }
+
+  .header{
+    max-width: 55%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 90px;
+    color: var(--blue-grayish-very-dark);
+  }
+
+  .header span{
+    font-weight: 500;
+    font-family:'Courier New', Courier, monospace ;
+    color: var(--light-brown);
+  }
+
+  .pargraph , .mail{
+    max-width: 75%;
+    margin-top: 20px;
+  }
+
+  .pargraph p{
+    line-height: 20px;
+    color: var(--light-brown);
+  }
+
+  .mail input{
+    width: 90%;
+    height: 50px;
+    border: 1px solid var(--blue-grayish);
+    border-radius: 3rem;
+    padding: 5%;
+  }
+
+  .mail input:focus {
+    outline: none;
+  	border: 1px solid var(--blue-grayish);
+  }
+
+  .mail button{
+    width: 90px;
+    height: 50px;
+    border-radius: 3rem;
+    border: none;
+    position: absolute;
+    background-color: #f29a99;
+    left: 420px;
+    cursor: pointer;
+  }
+
+  .mail button:hover{background-color: #facecf;}
+
+  .alert{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #f29a99;
+    font-size: small;
+  }
+  .error{
+    position: absolute;
+    left: 390px;
+    bottom: 150px;
+  }
+
+  .hidden{display: none;}
+
+  footer{
+    position: absolute;
+    bottom: 0%;
+    left: 47%;
+    transform: translate(-50%,0);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
