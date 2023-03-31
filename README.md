@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/mohab121/FrontEnd-Mentor-article-preview)
-- Live Site URL: [Add live site URL here](https://mohab121.github.io/FrontEnd-Mentor-article-preview/)
+- Solution URL: [Add solution URL here](https://github.com/mohab121/Frontend-Mentor-Base-Apparel-coming-soon-page)
+- Live Site URL: [Add live site URL here](https://mohab121.github.io/Frontend-Mentor-Base-Apparel-coming-soon-page/)
 
 ## My process
 
